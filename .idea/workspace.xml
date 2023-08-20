@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56e2a87a-e02a-4b7d-b911-c11da80ed3cc" name="Changes" comment="Criação das entidades">
-      <change afterPath="$PROJECT_DIR$/src/com/genka/domain/Content.java" afterDir="false" />
+    <list default="true" id="56e2a87a-e02a-4b7d-b911-c11da80ed3cc" name="Changes" comment="Refatoração das entidades utilizando herança">
+      <change afterPath="$PROJECT_DIR$/src/com/genka/domain/Bootcamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/genka/domain/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/genka/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/genka/domain/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/genka/domain/Mentorship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/genka/domain/Mentorship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692570092410</updated>
-      <workItem from="1692570093473" duration="2405000" />
+      <workItem from="1692570093473" duration="3972000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -72,7 +71,31 @@
       <option name="project" value="LOCAL" />
       <updated>1692571546705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refatoração das entidades utilizando herança">
+      <option name="closed" value="true" />
+      <created>1692572623462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692572623462</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Refatoração das entidades utilizando herança">
+      <option name="closed" value="true" />
+      <created>1692572797183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692572797183</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refatoração das entidades utilizando herança">
+      <option name="closed" value="true" />
+      <created>1692572844586</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692572844586</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Criação das entidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação das entidades" />
+    <MESSAGE value="Refatoração das entidades utilizando herança" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatoração das entidades utilizando herança" />
   </component>
 </project>
