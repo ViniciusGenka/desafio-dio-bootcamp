@@ -2,34 +2,20 @@ package com.genka.domain;
 
 import java.time.LocalDate;
 
-public class Mentorship {
-    String title;
-    String description;
+public class Mentorship extends Content {
     LocalDate date;
 
     public Mentorship() {
     }
 
     public Mentorship(String title, String description, LocalDate date) {
-        this.title = title;
-        this.description = description;
+        super(title, description);
         this.date = date;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
+    @Override
+    public double calculateXP() {
+        return XP + 10;
     }
 
     public LocalDate getDate() {
@@ -43,8 +29,8 @@ public class Mentorship {
     @Override
     public String toString() {
         return "Mentorship{" +
-                "title='" + title + '\'' +
-                ", description='" + description + '\'' +
+                "title='" + this.getTitle() + '\'' +
+                ", description='" + this.getDescription() + '\'' +
                 ", date=" + date +
                 '}';
     }
