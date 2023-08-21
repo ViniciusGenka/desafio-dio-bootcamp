@@ -15,7 +15,7 @@ public class Mentorship extends Content {
 
     @Override
     public double calculateXP() {
-        return XP + 10;
+        return BASE_XP + 20d;
     }
 
     public LocalDate getDate() {

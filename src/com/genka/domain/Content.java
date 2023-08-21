@@ -4,7 +4,7 @@ public abstract class Content {
     private String title;
     private String description;
 
-    protected static final double XP = 10d;
+    protected static final double BASE_XP = 10d;
 
     public Content() {
     }

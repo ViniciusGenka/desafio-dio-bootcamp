@@ -13,7 +13,7 @@ public class Course extends Content{
 
     @Override
     public double calculateXP() {
-        return 0;
+        return BASE_XP + this.duration;
     }
 
     public int getDuration() {

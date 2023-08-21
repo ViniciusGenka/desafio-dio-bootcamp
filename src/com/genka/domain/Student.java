@@ -2,12 +2,35 @@ package com.genka.domain;
 
 import java.util.LinkedHashSet;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 
 public class Student {
     private String name;
     private final Set<Content> subscribedContents = new LinkedHashSet<>();
     private final Set<Content> completedContents = new LinkedHashSet<>();
+
+    public void subscribeToBootcamp(Bootcamp bootcamp) {
+        this.subscribedContents.addAll(bootcamp.getContents());
+        bootcamp.getSubscribedStudents().add(this);
+    }
+
+    public void progressInBootcamp() {
+        Optional<Content> content = this.subscribedContents.stream().findFirst();
+        if(content.isPresent()) {
+            this.completedContents.add(content.get());
+            this.subscribedContents.remove(content.get());
+        } else {
+            System.err.println("Você não está matriculado em nenhum conteúdo!");
+        }
+    }
+
+    public double getStudentXP() {
+        return this.completedContents
+                .stream()
+                .mapToDouble(Content::calculateXP)
+                .sum();
+    }
 
     public String getName() {
         return name;
