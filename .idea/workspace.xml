@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56e2a87a-e02a-4b7d-b911-c11da80ed3cc" name="Changes" comment="Criação das entidades Bootcamp e Student">
+    <list default="true" id="56e2a87a-e02a-4b7d-b911-c11da80ed3cc" name="Changes" comment="Manipulação das entidades e seus comportamentos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/genka/domain/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/genka/domain/Content.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/genka/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/genka/domain/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/genka/domain/Mentorship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/genka/domain/Mentorship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/genka/domain/Bootcamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/genka/domain/Bootcamp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/genka/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/genka/domain/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692570092410</updated>
       <workItem from="1692570093473" duration="6006000" />
-      <workItem from="1692640405009" duration="3033000" />
+      <workItem from="1692640405009" duration="3962000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -106,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692574452078</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Desenvolvimento dos métodos referentes ao Student">
+      <option name="closed" value="true" />
+      <created>1692650154782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692650154782</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,8 @@
     <MESSAGE value="Criação das entidades" />
     <MESSAGE value="Refatoração das entidades utilizando herança" />
     <MESSAGE value="Criação das entidades Bootcamp e Student" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação das entidades Bootcamp e Student" />
+    <MESSAGE value="Desenvolvimento dos métodos referentes ao Student" />
+    <MESSAGE value="Manipulação das entidades e seus comportamentos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manipulação das entidades e seus comportamentos" />
   </component>
 </project>

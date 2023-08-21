@@ -10,6 +10,10 @@ public class Student {
     private final Set<Content> subscribedContents = new LinkedHashSet<>();
     private final Set<Content> completedContents = new LinkedHashSet<>();
 
+    public Student(String name) {
+        this.name = name;
+    }
+
     public void subscribeToBootcamp(Bootcamp bootcamp) {
         this.subscribedContents.addAll(bootcamp.getContents());
         bootcamp.getSubscribedStudents().add(this);
